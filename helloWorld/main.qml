@@ -5,4 +5,9 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+
+    Image{
+           source: "resource/img/gangshou.jpeg"
+           anchors.centerIn: parent
+    }
 }
