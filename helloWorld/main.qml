@@ -23,6 +23,13 @@ Window {
             height: 20
             color: "yellow"
         }
+
+        MyComponent{
+            id: my
+            color: "black"
+            width: 20
+            height: 20
+        }
     }
 
     Image{
