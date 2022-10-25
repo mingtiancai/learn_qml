@@ -14,7 +14,7 @@ qt_add_executable(apphelloWorld
 qt_add_qml_module(apphelloWorld
     URI helloWorld
     VERSION 1.0
-    QML_FILES main.qml 
+    QML_FILES main.qml
     RESOURCES
                resource/img/gangshou.jpeg
 )

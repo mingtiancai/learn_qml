@@ -5,6 +5,25 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+    Row{
+        id: testRow
+        x: 0
+        y: 0
+
+        Rectangle{
+            id: r1
+            width: 10
+            height: 20
+            color: "green"
+        }
+
+        Rectangle{
+            id: r2
+            width: 10
+            height: 20
+            color: "yellow"
+        }
+    }
 
     Image{
            source: "resource/img/gangshou.jpeg"
@@ -13,6 +32,11 @@ Window {
 
     MouseArea{
         anchors.fill: parent
-        onClicked: console.log("clicked")
+        onClicked:
+        {
+            console.log("clicked")
+            console.log("clicked2")
+            console.log(parent.width)
+        }
     }
 }
