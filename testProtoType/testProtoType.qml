@@ -9,6 +9,10 @@ Window {
     property var theArray: []
     property var theDate: new Date()
 
+    MyComponent{
+        id: test
+    }
+
     MouseArea{
         anchors.fill: parent
         onClicked:
@@ -28,6 +32,8 @@ Window {
             }
 
             console.log(theDate)
+
+            test.show()
         }
    }
 }
