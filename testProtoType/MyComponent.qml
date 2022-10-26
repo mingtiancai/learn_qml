@@ -4,6 +4,22 @@ Window{
     width: 400
     height: 400
 
+    Row{
+        Text{
+            font.pixelSize: 12
+            font.bold: true
+            text: "text1"
+        }
+
+        Text{
+            font{
+                pixelSize: 15
+                bold: false
+            }
+            text: "text2"
+        }
+    }
+
     property list <Rectangle> childRects:[
         Rectangle {
             x: 10
