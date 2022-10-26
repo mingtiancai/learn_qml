@@ -6,6 +6,8 @@ Window{
 
     id: myComponent
 
+    signal mySignal
+
     Row{
         Text{
             font.pixelSize: 12
@@ -48,6 +50,7 @@ Window{
                 console.log(childRects[i].color)
             }
             myComponent.color = Qt.rgba(Math.random(),Math.random(),Math.random(),1)
+            mySignal()
         }
     }
 }

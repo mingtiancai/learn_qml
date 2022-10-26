@@ -11,6 +11,10 @@ Window {
 
     MyComponent{
         id: test
+
+        onMySignal: {
+            console.log("slot my signal")
+        }
     }
 
     MouseArea{
