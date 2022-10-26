@@ -4,6 +4,8 @@ Window{
     width: 400
     height: 400
 
+    id: myComponent
+
     Row{
         Text{
             font.pixelSize: 12
@@ -45,6 +47,7 @@ Window{
             {
                 console.log(childRects[i].color)
             }
+            myComponent.color = Qt.rgba(Math.random(),Math.random(),Math.random(),1)
         }
     }
 }
