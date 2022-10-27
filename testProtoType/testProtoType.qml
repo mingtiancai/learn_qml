@@ -11,10 +11,14 @@ Window {
 
     MyComponent{
         id: test
-
         onMySignal: {
             console.log("slot my signal")
         }
+    }
+
+    MyComponent2{
+        id: testr
+
     }
 
     MouseArea{
@@ -37,7 +41,10 @@ Window {
 
             console.log(theDate)
 
-            test.show()
+//            test.show()
+            testr.show()
+
+
         }
    }
 }
