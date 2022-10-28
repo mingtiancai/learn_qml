@@ -1,5 +1,6 @@
 import QtQuick 2.15
 
+
 Window{
     id: rect
 
@@ -10,4 +11,5 @@ Window{
     {
         return rect.width / 2;
     }
+    Component.onCompleted: console.log("Completed Running!")
 }
