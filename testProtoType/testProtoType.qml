@@ -26,6 +26,10 @@ Window {
 
     }
 
+    MyComponent4{
+        id: test4
+    }
+
     MouseArea{
         anchors.fill: parent
         onClicked:
@@ -51,9 +55,10 @@ Window {
             test3.width = 100
             console.log("width: ",test3.width)
             console.log("height: ",test3.height)
-            test3.show()
-
+//            test3.show()
+            test4.show()
 
         }
    }
 }
+
