@@ -1,5 +1,6 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
+import "factorial.js" as MathFunctions
 
 Window {
     width: 640
@@ -49,6 +50,7 @@ Window {
             }
 
             console.log(theDate)
+            console.log("factorial(10): ",MathFunctions.factorial(10))
 
 //            test.show()
 //            testr.show()
