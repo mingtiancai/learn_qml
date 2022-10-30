@@ -9,4 +9,10 @@ Window {
     MyItem{
         id: myItem
     }
+
+    MyText{
+        id: myText
+        y: 300
+
+    }
 }
