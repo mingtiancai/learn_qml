@@ -9,9 +9,11 @@ Item {
     }
 
     Rectangle{
+        opacity: 0.1
         x: 190
         width: 100
         height: 100
         color: "red"
     }
 }
+
