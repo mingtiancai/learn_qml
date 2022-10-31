@@ -13,9 +13,6 @@ Item {
             color: "steelblue"
             text: "blue text"
             font.pointSize: 20
-            clip: true
         }
     }
-
-
 }

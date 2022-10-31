@@ -14,7 +14,7 @@ qt_add_executable(applearnQtQuick
 qt_add_qml_module(applearnQtQuick
     URI learnQtQuick
     VERSION 1.0
-    QML_FILES main.qml MyItem.qml MyText.qml
+    QML_FILES main.qml MyItem.qml MyText.qml MyGrid.qml
     RESOURCES
                    resource/img/gangshou.jpeg
 )
