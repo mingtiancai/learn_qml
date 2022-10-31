@@ -1,8 +1,8 @@
 import QtQuick
 
 Window {
-    width: 640
-    height: 480
+    width: 1000
+    height: 1000
     visible: true
     title: qsTr("Hello World")
 
@@ -20,4 +20,20 @@ Window {
         x: 200
         y: 200
     }
+
+//    MyFlow{
+//        x: 500
+//        y: 500
+//    }
+
+//    MyTransition{
+//        x: 500
+//        y: 500
+//    }
+
+    MyRepeator{
+        x: 500
+        y: 500
+    }
+
 }
