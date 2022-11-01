@@ -31,9 +31,14 @@ Window {
 //        y: 500
 //    }
 
-    MyRepeator{
-        x: 500
-        y: 500
+//    MyRepeator{
+//        x: 500
+//        y: 500
+//    }
+
+    MyDoubleRect{
+        x: 400
+        y: 400
     }
 
 }
