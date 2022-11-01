@@ -36,9 +36,15 @@ Window {
 //        y: 500
 //    }
 
-    MyDoubleRect{
-        x: 400
-        y: 400
+//    MyDoubleRect{
+//        x: 400
+//        y: 400
+//    }
+
+    MyLayout{
+        x: 700
+        y: 500
+        visible: true
     }
 
 }

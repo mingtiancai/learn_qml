@@ -14,9 +14,16 @@ qt_add_executable(applearnQtQuick
 qt_add_qml_module(applearnQtQuick
     URI learnQtQuick
     VERSION 1.0
-    QML_FILES main.qml MyItem.qml MyText.qml MyGrid.qml MyFlow.qml MyTransition.qml MyRepeator.qml
-    RESOURCES
-                   resource/img/gangshou.jpeg
+    QML_FILES main.qml
+              MyItem.qml
+              MyText.qml
+              MyGrid.qml
+              MyFlow.qml
+              MyTransition.qml
+              MyRepeator.qml
+              MyDoubleRect.qml
+              MyLayout.qml
+    RESOURCES resource/img/gangshou.jpeg
 )
 
 set_target_properties(applearnQtQuick PROPERTIES
