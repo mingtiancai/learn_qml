@@ -23,6 +23,9 @@ qt_add_qml_module(applearnQtQuick
               MyRepeator.qml
               MyDoubleRect.qml
               MyLayout.qml
+              MyDrag.qml
+              MyRect.qml
+              MyDrag2.qml
     RESOURCES resource/img/gangshou.jpeg
 )
 

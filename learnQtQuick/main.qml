@@ -41,10 +41,20 @@ Window {
 //        y: 400
 //    }
 
-    MyLayout{
-        x: 700
-        y: 500
-        visible: true
+//    MyLayout{
+//        x: 700
+//        y: 500
+//        visible: true
+//    }
+
+//    MyDrag{
+//        x: 400
+//        y: 400
+//    }
+
+    MyDrag2{
+        x: 300
+        y: 300
     }
 
 }
