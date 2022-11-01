@@ -52,9 +52,14 @@ Window {
 //        y: 400
 //    }
 
-    MyDrag2{
-        x: 300
-        y: 300
+//    MyDrag2{
+//        x: 300
+//        y: 300
+//    }
+
+    MyNavigation{
+        x: 500
+        y: 500
     }
 
 }
