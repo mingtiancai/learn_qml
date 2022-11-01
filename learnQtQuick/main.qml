@@ -57,9 +57,14 @@ Window {
 //        y: 300
 //    }
 
-    MyNavigation{
-        x: 500
-        y: 500
+//    MyNavigation{
+//        x: 500
+//        y: 500
+//    }
+
+    MyTimer{
+        x: 400
+        y: 400
     }
 
 }

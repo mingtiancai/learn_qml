@@ -27,6 +27,7 @@ qt_add_qml_module(applearnQtQuick
               MyRect.qml
               MyDrag2.qml
               MyNavigation.qml
+              MyTimer.qml
     RESOURCES resource/img/gangshou.jpeg
 )
 
