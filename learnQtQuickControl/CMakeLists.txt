@@ -14,7 +14,14 @@ qt_add_executable(applearnQtQuickControl
 qt_add_qml_module(applearnQtQuickControl
     URI learnQtQuickControl
     VERSION 1.0
-    QML_FILES main.qml 
+    QML_FILES main.qml
+              MyButton.qml
+              MyButton2.qml
+              MyCheckBox.qml
+              MyCheckBox2.qml
+              MySwitch.qml
+              MyRadioButton.qml
+              MyDelayButton.qml
 )
 
 set_target_properties(applearnQtQuickControl PROPERTIES
