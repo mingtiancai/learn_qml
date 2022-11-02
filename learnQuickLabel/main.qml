@@ -6,7 +6,22 @@ Window {
     visible: true
     title: qsTr("Hello World")
 
-    MyLabel{
+//    MyLabel{
+//        x: 20
+//        y: 20
+//    }
+
+//    MyProgress{
+//        x: 20
+//        y: 20
+//    }
+
+//    MyBusyIndicator{
+//        x: 20
+//        y: 20
+//    }
+
+    MyPageIndicator{
         x: 20
         y: 20
     }

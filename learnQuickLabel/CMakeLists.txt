@@ -16,6 +16,9 @@ qt_add_qml_module(applearnQuickLabel
     VERSION 1.0
     QML_FILES main.qml
               MyLabel.qml
+              MyProgress.qml
+              MyBusyIndicator.qml
+              MyPageIndicator.qml
 )
 
 set_target_properties(applearnQuickLabel PROPERTIES
